@@ -49,9 +49,16 @@ Since manual labeling was carried out over several years, a wide variety of data
 > > > > - **Total photos:**  8649 ==> **with defects:** 6086 | **without defects:** 2563
 > > > >  ![image](https://github.com/user-attachments/assets/06771cab-4805-4ddd-ba3e-6e137c282673)
 > > > > The most typical defects predominate over others
-> > > > > Some classes depend on others, e.g., shadow is reflected as a hotspot, dirt is a hotspot, PID is reflected as PCM. The main classes are:
+> > > > > Some classes depend on others, e.g., shadow is reflected as a hotspot, dirt is a hotspot, PID is reflected as PCM. The main classes are:  
 > > > > > ![image](https://github.com/user-attachments/assets/53ac3977-0898-4e20-86e5-c7f43aa9c3ff)
-> > > > > ![image](https://github.com/user-attachments/assets/c61566ce-97f5-4145-beef-970c0bf318a2)
+> > > > > ![image](https://github.com/user-attachments/assets/f0a1b8d8-2d09-421d-9216-f0f1d0cd5582)
+> > > > > ![image](https://github.com/user-attachments/assets/08808340-ca5c-40b8-9af0-36bf4285c0f6)
+> > > > > ![image](https://github.com/user-attachments/assets/36289bf3-11c1-4c22-81d9-212f9cdd2b80)
+> > > > > ![image](https://github.com/user-attachments/assets/279e49b9-0c84-4144-89f5-57df850c2cc8)
+
+
+
+
 
 
 
