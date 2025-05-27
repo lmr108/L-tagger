@@ -22,6 +22,11 @@
 </span>
 
 ## Description
-**Problem:** Inspecting thermographic images of photovoltaic panels required reviewing them one by one and manually labeling each defect, which is an extremely tedious task.
+-**Problem:** Inspecting thermographic images of photovoltaic panels required reviewing them one by one and manually labeling each defect, which is an extremely tedious task.
 
-**Solution:** Develop a model that automatically detects defects. To achieve this, we opted for transfer learning on a YOLO architecture. Below are more details and the model’s performance.
+-**Solution:** Develop a model that automatically detects defects. To achieve this, we opted for transfer learning on a YOLO architecture. Below are more details and the model’s performance.
+
+## Details
+- **Development time:** 40 hours  
+- **Images used:** 5,795  
+
