@@ -56,15 +56,19 @@ Since manual labeling was carried out over several years, a wide variety of data
 > > > > > ![image](https://github.com/user-attachments/assets/36289bf3-11c1-4c22-81d9-212f9cdd2b80)
 > > > > > ![image](https://github.com/user-attachments/assets/279e49b9-0c84-4144-89f5-57df850c2cc8)
 
-
-
-
-
-
-
 ## Training
+Several training sessions were run using all the data, increasing some specific ones. It was concluded that to maximize accuracy, it is better not to balance the data, leaving the maximum number of defects possible in PC and PCM (hotspot and multiple hotspot), and sacrificing accuracy in other classes. Best model to date:
 
+> Train results: 
+><img src="https://github.com/user-attachments/assets/e22e44f2-b626-4a2f-b5cb-02fe4db4cbd4" width="400">
+><img src="https://github.com/user-attachments/assets/f05ec63c-2a52-4ec6-94d5-6aaf723f24cf" width="400">
+><img src="https://github.com/user-attachments/assets/7fec486d-e04b-49e3-b696-b58d19ac7276" width="400">
+><img src="https://github.com/user-attachments/assets/f99eba83-2d0c-4a6f-8b1d-f1691384f64c" width="400">
 
+> Test results:
+>
+>
+>
 ## Performance 📈
 
 ## Future work
