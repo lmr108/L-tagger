@@ -91,5 +91,30 @@ For the production deployment, a web interface was created in Streamlit, which w
 > <img src="https://github.com/user-attachments/assets/3ceb2386-1798-4c9b-907a-e749f808206d" width="300">  <img src="https://github.com/user-attachments/assets/4977a786-145b-45ab-a9b6-c56ec2870180" width="300">  <img src="https://github.com/user-attachments/assets/602930d6-e8d9-44ee-bc0c-54069e7ff57f" width="300">
 
 ## Future work
+❗The order of improvements is the one I consider should be addressed.
+1. Upgrade to YOLOv10 => immediate improvement.
+2. Obtain more samples of PA, PS, and BD, at least 2k for each of them.
+3. Based on the tests and my experience, the target dataset for the thermal model is as follows (without data augmentation):  
+>PCM: 12k
+>PC: 12k
+>BS: 8k
+>BD: 2k
+>PS: 2k
+>PA: 2k
 
-## Model
+>>It is difficult to increase BD, PS, and PA without increasing PCM and PC because the photos usually don’t have only the first ones without including hotspots...
+
+>>In BD, PS, and PA, with this amount of defects, the model learns very well, they are very easy to recognize. But I wouldn’t sacrifice variance or defects in PCM and PC to balance things out. It’s better to have a strong PC and PCM model than something mediocre that tries to capture a little bit of everything. I would prioritize accuracy in major classes, as I’ve done (the more plants in the data, the better; more data is always better).
+
+5. Full pipeline objective:
+
+>Thermal model with 6 classes (this could be replaced by two cascading models, one for detecting 4 classes (PC, PCM, BD, others) => others are passed to a classifier, the classifier only receives the bounding box corners of "others").
+
+>⚠️ It is necessary to have visual and thermal data aligned.
+
+>The classes PC and PCM, along with their labels, are passed to another classifier. This classifier is fed with the bounding box from the thermal image and the corresponding bounding box from the visual image (they must be aligned). With this, we will be able to be more specific about the defect. The idea is for the model to learn that PC + brown tones in the visual = dirt, and so on for each class.
+
+>With this, we could have a pipeline with multiple cascading models. I believe that if done correctly, it can achieve very high accuracy, much better than now, even by adding more models. There are plenty of data in the NAS, we just need to recycle them for training.
+
+>The first model, the current one, would be improved to YOLOv10, or even higher if available. As for the classification models, I would also keep YOLO.
+    
