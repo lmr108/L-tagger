@@ -32,3 +32,10 @@
 - **Frameworks & versiones:** CUDA: 11.8 | cuDNN: 8.7 | torch: 2.6.0+cu118 | Python: 3.12.10
 - **Training time:** ~15h
 
+## Data Collection
+
+## Performance
+
+## Future work
+
+## Model
