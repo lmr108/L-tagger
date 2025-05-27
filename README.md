@@ -66,10 +66,13 @@ Several training sessions were run using all the data, increasing some specific 
 ><img src="https://github.com/user-attachments/assets/f99eba83-2d0c-4a6f-8b1d-f1691384f64c" width="400">
 
 > Test results:
->
->
->
+> <img src="https://github.com/user-attachments/assets/bb2968fa-3469-4c74-9207-53c29768cbd0" width="400">
+> <img src="https://github.com/user-attachments/assets/248407b7-3262-4d4a-b019-7285a2dc1c2e" width="400">
+> As mentioned earlier, sacrificing accuracy in minority classes, we will now look at the performance.
+
 ## Performance 📈
+
+
 
 ## Future work
 
