@@ -27,6 +27,8 @@
 -**Solution:** Develop a model that automatically detects defects. To achieve this, we opted for transfer learning on a YOLO architecture. Below are more details and the model’s performance.
 
 ## Details
-- **Development time:** 40 hours  
-- **Images used:** 5,795  
+- **Development time:** 150 hours  
+- **Hardware:** RTX 2080 ti x2
+- **Frameworks & versiones:** CUDA: 11.8 | cuDNN: 8.7 | torch: 2.6.0+cu118
+- **Training time:** ~15h
 
