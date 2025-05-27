@@ -33,6 +33,23 @@
 - **Training time:** ~15h
 
 ## Data Collection
+Since manual labeling was carried out over several years, a wide variety of data and labels were available. However, due to the specific processing of the images, not all could be reused. A meticulous selection process was carried out as follows:
+
+> ```python
+>script_1.py
+>```
+> Collected data from valid plants on the server (photos and labels) and saved them in a target location (for every 2 photos with defects in the dataset, another one without defects was introduced).
+>
+> > ```python
+> >script_2.py
+> >```
+> > Processed all the collected plant data, allowing the creation of datasets of all kinds, while keeping only the defects that were desired (with the aim of conducting different tests). The images were automatically transferred to the correct folder structure, and the labels were normalized and prepared in YOLO format.
+> > > ❗ The dataset mainly consisted of plants with monopoles and fewer traditional plants, which was reflected in the performance for each type, as we will see later ❗
+> > > > Summary:
+> > > > - **Total photos:**  8649 ==> **with defects:** 6086 | **without defects:** 2563
+> > > >  ![image](https://github.com/user-attachments/assets/06771cab-4805-4ddd-ba3e-6e137c282673)
+
+
 
 ## Performance
 
