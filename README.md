@@ -29,6 +29,6 @@
 ## Details
 - **Development time:** 150 hours  
 - **Hardware:** RTX 2080 ti x2
-- **Frameworks & versiones:** CUDA: 11.8 | cuDNN: 8.7 | torch: 2.6.0+cu118
+- **Frameworks & versiones:** CUDA: 11.8 | cuDNN: 8.7 | torch: 2.6.0+cu118 | Python: 3.12.10
 - **Training time:** ~15h
 
