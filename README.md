@@ -72,7 +72,23 @@ Several training sessions were run using all the data, increasing some specific 
 
 ## Performance 📈
 
+<img src="https://github.com/user-attachments/assets/91ef4ac0-a116-4d1e-b5e0-47b86383d3eb" width="350">
+<img src="https://github.com/user-attachments/assets/c8c3c393-af27-491a-8211-22c795db55f6" width="350">
+<img src="https://github.com/user-attachments/assets/23c0bd57-9dc5-40f8-864e-28ef87c890d6" width="350">
+<img src="https://github.com/user-attachments/assets/2aaf5378-4e74-45a6-8bde-f58792e094a2" width="350">
+<img src="https://github.com/user-attachments/assets/28b00ed3-50be-43be-bb4c-cdc0e1192a8e" width="350">
+<img src="https://github.com/user-attachments/assets/6839260a-8f90-463f-b765-20f5fe347b27" width="350">
+<img src="https://github.com/user-attachments/assets/2de516c7-cc7f-49d8-a350-72b6d1de784f" width="350">
 
+## Production deployment
+For the production deployment, a web interface was created in Streamlit, which was launched on a specific server address so that the labeling team could easily connect by being on the same network. In the interface, the path to a folder was provided, and the labels with the predictions were automatically saved into it, in the format required by the labeling app. This way, the folder could be loaded directly, and the model's predictions could be modified without any additional adjustments. 
+
+> Predictions loaded (frame with green lines where it made errors)
+> Monopoles  
+> <img src="https://github.com/user-attachments/assets/2c20afab-150d-4217-9dbb-b50e03e40a7e" width="300">  <img src="https://github.com/user-attachments/assets/b70e4643-f39c-42ca-bf75-53a61838c3ee" width="300">  
+
+> Traditional plants  
+> <img src="https://github.com/user-attachments/assets/3ceb2386-1798-4c9b-907a-e749f808206d" width="300">  <img src="https://github.com/user-attachments/assets/4977a786-145b-45ab-a9b6-c56ec2870180" width="300">  <img src="https://github.com/user-attachments/assets/602930d6-e8d9-44ee-bc0c-54069e7ff57f" width="300">
 
 ## Future work
 
