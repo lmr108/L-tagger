@@ -48,7 +48,7 @@ Since manual labeling was carried out over several years, a wide variety of data
 > > > > Summary:
 > > > > - **Total photos:**  8649 ==> **with defects:** 6086 | **without defects:** 2563
 > > > >  ![image](https://github.com/user-attachments/assets/06771cab-4805-4ddd-ba3e-6e137c282673)
-
+> > > > The most typical defects predominate over others
 
 
 ## Performance
