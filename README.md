@@ -1,4 +1,4 @@
-# PV-Defect-Detection-YOLOv5-based
+# PV Defect Detection-YOLOv5 based
 
 <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
   <!-- Built for badge -->
